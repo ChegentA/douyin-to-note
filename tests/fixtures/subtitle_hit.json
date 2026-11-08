@@ -1,0 +1,23 @@
+{
+  "_fixture_note": "构造样本：字段结构参照真实 detail 响应，aweme_id 已匿名化；duration 与 caption_infos 为构造值，用于覆盖『字幕命中』路径。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {
+    "duration": 20000,
+    "cla_info": {
+      "caption_infos": [
+        {"language": "chi", "caption_format": "webvtt", "start_time": 0, "end_time": 3000, "text": "这是一段完全虚构的示例字幕内容"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 3000, "end_time": 7000, "text": "用来覆盖平台字幕命中的几条判据"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 7000, "end_time": 11000, "text": "所有句子都是测试构造并非原视频"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 11000, "end_time": 15000, "text": "时间轴连续且总长度与视频一致"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 15000, "end_time": 17000, "text": "最后一条结束时间贴近视频结尾"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 17000, "end_time": 19000, "text": "这样才能通过覆盖率与密度检查"}
+      ]
+    }
+  },
+  "chapter_list": [
+    {"desc": "开场：一次没必要的返工", "timestamp": 0},
+    {"desc": "方法：把流程拆成小步", "timestamp": 7000},
+    {"desc": "风险：预算被临时砍掉", "timestamp": 14000}
+  ]
+}

@@ -1,0 +1,34 @@
+# 用户级配置与凭据（真实文件在 %USERPROFILE%\.douyin-skill\，这里再挡一次误提交）
+config.json
+cookies.json
+transcripts/
+stats/
+fixtures_raw/
+*.example.local.json
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.py[cod]
+
+# 运行产物与临时文件
+*.log
+*.mp4
+*.m4a
+*.webm
+*.tmp
+temp/
+out/
+output/
+notes/
+抖音视频/
+
+# 输出笔记与自检产物
+*.tmp.md
+*.output.md
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

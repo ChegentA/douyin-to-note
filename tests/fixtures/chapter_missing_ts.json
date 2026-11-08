@@ -1,0 +1,10 @@
+{
+  "_fixture_note": "缺时间戳章节：第二条没有 timestamp，无法定位，应丢弃并记录 dropped（含 desc/timestamp/reason），保留第一条。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {"duration": 20000},
+  "chapter_list": [
+    {"desc": "开场：一次没必要的返工", "timestamp": 0},
+    {"desc": "风险：预算被临时砍掉"}
+  ]
+}

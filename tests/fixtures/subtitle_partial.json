@@ -1,0 +1,20 @@
+{
+  "_fixture_note": "字幕残缺样本：duration 沿用原样本时长（1029382ms），caption_infos 只覆盖到 37 万毫秒左右，coverage≈0.36，用于验证『尾部截断』判否。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {
+    "duration": 1029382,
+    "cla_info": {
+      "caption_infos": [
+        {"language": "chi", "caption_format": "webvtt", "start_time": 0, "end_time": 20000, "text": "这是字幕残缺样本的开头一段"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 20000, "end_time": 200000, "text": "中间这段有文本但时间轴被压缩"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 200000, "end_time": 372724, "text": "字幕在这里就结束了后面全是空白"}
+      ]
+    }
+  },
+  "chapter_list": [
+    {"desc": "开场：一次没必要的返工", "timestamp": 0},
+    {"desc": "方法：把流程拆成小步", "timestamp": 372724},
+    {"desc": "风险：预算被临时砍掉", "timestamp": 679576}
+  ]
+}

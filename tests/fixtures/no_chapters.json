@@ -1,0 +1,16 @@
+{
+  "_fixture_note": "无章节样本：字幕命中但完全没有 chapter_list，用于验证正文退回单段结构、且不产生锚点行。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {
+    "duration": 20000,
+    "cla_info": {
+      "caption_infos": [
+        {"language": "chi", "caption_format": "webvtt", "start_time": 0, "end_time": 5000, "text": "没有章节的样本第一段字幕文本"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 5000, "end_time": 10000, "text": "第二段字幕文本同样没有章节"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 10000, "end_time": 15000, "text": "第三段字幕文本继续往下讲"},
+        {"language": "chi", "caption_format": "webvtt", "start_time": 15000, "end_time": 19000, "text": "第四段字幕文本直接收尾"}
+      ]
+    }
+  }
+}

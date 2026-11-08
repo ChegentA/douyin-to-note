@@ -1,0 +1,9 @@
+{
+  "_fixture_note": "detail 兜底截断：章节没有 desc，detail 是 26 字虚构说明，超过 20 字上限，应截到 20 字并追加省略号，同时记 title_truncated 告警。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {"duration": 20000},
+  "chapter_list": [
+    {"desc": "", "detail": "这一段虚构说明文字稍长一些用来覆盖截断逻辑与告警记录", "timestamp": 5000}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "_fixture_note": "空标题章节：第一条 desc 与 detail 均为空，应保留并输出只有时间码的锚点（不写占位词）；第二条正常。",
+  "aweme_id": "7000000000000000000",
+  "aweme_type": 0,
+  "video": {"duration": 20000},
+  "chapter_list": [
+    {"desc": "", "detail": "", "timestamp": 0},
+    {"desc": "方法：把流程拆成小步", "timestamp": 10000}
+  ]
+}
