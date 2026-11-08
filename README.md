@@ -22,7 +22,7 @@ Windows 上脚本通过 WSL 或 Git Bash 运行；`install.sh` 会自动从注�
 **第一步：拿到代码并进入目录**
 
 ```bash
-git clone <仓库地址> douyin-to-note
+git clone https://github.com/ChegentA/douyin-to-note.git douyin-to-note
 cd douyin-to-note
 ```
 
